@@ -1,0 +1,296 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bela-modular-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C Cci0
+U 1 1 584330F3
+P 1600 1850
+F 0 "Cci0" H 1625 1950 50  0000 L CNN
+F 1 "1uF" H 1625 1750 50  0000 L CNN
+F 2 "" H 1638 1700 50  0000 C CNN
+F 3 "" H 1600 1850 50  0000 C CNN
+	1    1600 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 58433178
+P 2100 1850
+F 0 "R3" V 2180 1850 50  0000 C CNN
+F 1 "100k" V 2100 1850 50  0000 C CNN
+F 2 "" V 2030 1850 50  0000 C CNN
+F 3 "" H 2100 1850 50  0000 C CNN
+	1    2100 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5843319F
+P 2300 2150
+F 0 "R4" V 2380 2150 50  0000 C CNN
+F 1 "20k" V 2300 2150 50  0000 C CNN
+F 2 "" V 2230 2150 50  0000 C CNN
+F 3 "" H 2300 2150 50  0000 C CNN
+	1    2300 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R5
+U 1 1 584331DA
+P 2800 2650
+F 0 "R5" V 2880 2650 50  0000 C CNN
+F 1 "20k" V 2800 2650 50  0000 C CNN
+F 2 "" V 2730 2650 50  0000 C CNN
+F 3 "" H 2800 2650 50  0000 C CNN
+	1    2800 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L TL074 U2
+U 1 1 5843321E
+P 3250 1900
+F 0 "U2" H 3300 2100 50  0000 C CNN
+F 1 "TL074" H 3400 1700 50  0000 C CNN
+F 2 "" H 3200 2000 50  0000 C CNN
+F 3 "" H 3300 2100 50  0000 C CNN
+	1    3250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TL074 U2
+U 2 1 58433259
+P 5450 1900
+F 0 "U2" H 5500 2100 50  0000 C CNN
+F 1 "TL074" H 5600 1700 50  0000 C CNN
+F 2 "" H 5400 2000 50  0000 C CNN
+F 3 "" H 5500 2100 50  0000 C CNN
+	2    5450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 58433460
+P 3350 2500
+F 0 "R6" V 3430 2500 50  0000 C CNN
+F 1 "10k" V 3350 2500 50  0000 C CNN
+F 2 "" V 3280 2500 50  0000 C CNN
+F 3 "" H 3350 2500 50  0000 C CNN
+	1    3350 2500
+	0    1    1    0   
+$EndComp
+Text GLabel 3150 2300 0    60   Input ~ 0
+VSS
+Text GLabel 3150 1500 0    60   Input ~ 0
+VCC
+$Comp
+L R R7
+U 1 1 58433687
+P 4250 1800
+F 0 "R7" V 4330 1800 50  0000 C CNN
+F 1 "27k4" V 4250 1800 50  0000 C CNN
+F 2 "" V 4180 1800 50  0000 C CNN
+F 3 "" H 4250 1800 50  0000 C CNN
+	1    4250 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R8
+U 1 1 5843370E
+P 4650 1800
+F 0 "R8" V 4730 1800 50  0000 C CNN
+F 1 "27k4" V 4650 1800 50  0000 C CNN
+F 2 "" V 4580 1800 50  0000 C CNN
+F 3 "" H 4650 1800 50  0000 C CNN
+	1    4650 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 5843374F
+P 5100 2800
+F 0 "R9" V 5180 2800 50  0000 C CNN
+F 1 "27k4" V 5100 2800 50  0000 C CNN
+F 2 "" V 5030 2800 50  0000 C CNN
+F 3 "" H 5100 2800 50  0000 C CNN
+	1    5100 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R10
+U 1 1 584337CF
+P 5350 2600
+F 0 "R10" V 5430 2600 50  0000 C CNN
+F 1 "16k2" V 5350 2600 50  0000 C CNN
+F 2 "" V 5280 2600 50  0000 C CNN
+F 3 "" H 5350 2600 50  0000 C CNN
+	1    5350 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C2
+U 1 1 58433837
+P 5350 1050
+F 0 "C2" H 5375 1150 50  0000 L CNN
+F 1 "330pF" H 5375 950 50  0000 L CNN
+F 2 "" H 5388 900 50  0000 C CNN
+F 3 "" H 5350 1050 50  0000 C CNN
+	1    5350 1050
+	0    1    1    0   
+$EndComp
+Text GLabel 5350 1450 0    60   Input ~ 0
+VCC
+Text GLabel 5350 2350 0    60   Input ~ 0
+VSS
+$Comp
+L GND #PWR03
+U 1 1 58433A03
+P 2550 3150
+F 0 "#PWR03" H 2550 2900 50  0001 C CNN
+F 1 "GND" H 2550 3000 50  0000 C CNN
+F 2 "" H 2550 3150 50  0000 C CNN
+F 3 "" H 2550 3150 50  0000 C CNN
+	1    2550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 58433AF1
+P 4850 2200
+F 0 "C1" H 4875 2300 50  0000 L CNN
+F 1 "330pF" H 4875 2100 50  0000 L CNN
+F 2 "" H 4888 2050 50  0000 C CNN
+F 3 "" H 4850 2200 50  0000 C CNN
+	1    4850 2200
+	-1   0    0    1   
+$EndComp
+Text GLabel 4950 3050 3    60   Input ~ 0
+inputoffset
+Text Notes 1650 2050 3    60   ~ 0
+ac couple, optional
+Text GLabel 6200 1900 2    60   Output ~ 0
+bela_ain0
+Wire Wire Line
+	1750 1850 1950 1850
+Wire Wire Line
+	2250 1850 2750 1850
+Wire Wire Line
+	2300 1850 2300 2000
+Wire Wire Line
+	2750 1850 2750 1800
+Wire Wire Line
+	2750 1800 2950 1800
+Connection ~ 2300 1850
+Wire Wire Line
+	2800 2500 3200 2500
+Wire Wire Line
+	2800 2500 2800 2000
+Wire Wire Line
+	2800 2000 2950 2000
+Wire Wire Line
+	3650 1800 3650 2500
+Wire Wire Line
+	3650 1900 3550 1900
+Wire Wire Line
+	3150 2200 3150 2300
+Wire Wire Line
+	3150 1600 3150 1500
+Wire Wire Line
+	3650 2500 3500 2500
+Wire Wire Line
+	2300 2300 2300 3150
+Wire Wire Line
+	2300 3150 2800 3150
+Wire Wire Line
+	2800 3150 2800 2800
+Wire Wire Line
+	4400 1800 4500 1800
+Wire Wire Line
+	4100 1800 3650 1800
+Connection ~ 3650 1900
+Wire Wire Line
+	4800 1800 5150 1800
+Wire Wire Line
+	5350 2200 5350 2350
+Wire Wire Line
+	5350 1600 5350 1450
+Wire Wire Line
+	4850 1800 4850 2050
+Connection ~ 4850 1800
+Wire Wire Line
+	5150 2000 5100 2000
+Wire Wire Line
+	5100 2000 5100 2650
+Wire Wire Line
+	5200 2600 5100 2600
+Connection ~ 5100 2600
+Wire Wire Line
+	5500 2600 5850 2600
+Wire Wire Line
+	5850 2600 5850 1900
+Wire Wire Line
+	5750 1900 6200 1900
+Wire Wire Line
+	4450 1050 5200 1050
+Connection ~ 4950 1800
+Wire Wire Line
+	5500 1050 5800 1050
+Wire Wire Line
+	5800 1050 5800 1900
+Connection ~ 5800 1900
+Wire Wire Line
+	4850 2350 4850 3050
+Wire Wire Line
+	4850 3050 5100 3050
+Wire Wire Line
+	5100 3050 5100 2950
+Connection ~ 5850 1900
+Wire Wire Line
+	1450 1850 1200 1850
+Text GLabel 1200 1850 0    60   Input ~ 0
+modular_ain0
+Wire Wire Line
+	4450 1050 4450 1800
+Connection ~ 4450 1800
+$EndSCHEMATC
