@@ -1,4 +1,4 @@
-update=Sun 04 Dec 2016 07:03:49 PM PST
+update=Mon 05 Dec 2016 08:39:22 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../lib
@@ -59,3 +57,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=trim
+[general]
+version=1
