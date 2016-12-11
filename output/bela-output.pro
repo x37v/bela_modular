@@ -1,4 +1,4 @@
-update=Tue 06 Dec 2016 06:59:46 AM PST
+update=Tue 06 Dec 2016 09:24:41 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../lib
@@ -60,3 +58,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=/home/alex/projects/electronics/kicad/lib/mta-156
 LibName31=/home/alex/projects/electronics/kicad/lib/trim
+[general]
+version=1
