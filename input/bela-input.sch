@@ -61,7 +61,7 @@ U 1 1 5844A1FB
 P 2400 1900
 F 0 "R1" V 2480 1900 50  0000 C CNN
 F 1 "100k" V 2400 1900 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2330 1900 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 2330 1900 50  0001 C CNN
 F 3 "" H 2400 1900 50  0000 C CNN
 	1    2400 1900
 	0    1    1    0   
@@ -72,7 +72,7 @@ U 1 1 5844A202
 P 2600 2200
 F 0 "R5" V 2680 2200 50  0000 C CNN
 F 1 "20k" V 2600 2200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2530 2200 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 2530 2200 50  0001 C CNN
 F 3 "" H 2600 2200 50  0000 C CNN
 	1    2600 2200
 	-1   0    0    1   
@@ -83,7 +83,7 @@ U 1 1 5844A209
 P 3100 2700
 F 0 "R9" V 3180 2700 50  0000 C CNN
 F 1 "20k" V 3100 2700 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 3030 2700 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 3030 2700 50  0001 C CNN
 F 3 "" H 3100 2700 50  0000 C CNN
 	1    3100 2700
 	1    0    0    -1  
@@ -116,7 +116,7 @@ U 1 1 5844A21E
 P 3650 2550
 F 0 "R13" V 3730 2550 50  0000 C CNN
 F 1 "10k" V 3650 2550 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 3580 2550 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 3580 2550 50  0001 C CNN
 F 3 "" H 3650 2550 50  0000 C CNN
 	1    3650 2550
 	0    1    1    0   
@@ -131,7 +131,7 @@ U 1 1 5844A227
 P 4550 1850
 F 0 "R17" V 4630 1850 50  0000 C CNN
 F 1 "27k4" V 4550 1850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 4480 1850 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4480 1850 50  0001 C CNN
 F 3 "" H 4550 1850 50  0000 C CNN
 	1    4550 1850
 	0    1    1    0   
@@ -142,7 +142,7 @@ U 1 1 5844A22E
 P 4950 1850
 F 0 "R21" V 5030 1850 50  0000 C CNN
 F 1 "27k4" V 4950 1850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 4880 1850 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4880 1850 50  0001 C CNN
 F 3 "" H 4950 1850 50  0000 C CNN
 	1    4950 1850
 	0    1    1    0   
@@ -153,7 +153,7 @@ U 1 1 5844A235
 P 5400 2850
 F 0 "R25" V 5480 2850 50  0000 C CNN
 F 1 "27k4" V 5400 2850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 5330 2850 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 5330 2850 50  0001 C CNN
 F 3 "" H 5400 2850 50  0000 C CNN
 	1    5400 2850
 	-1   0    0    1   
@@ -164,7 +164,7 @@ U 1 1 5844A23C
 P 5650 2650
 F 0 "R29" V 5730 2650 50  0000 C CNN
 F 1 "16k2" V 5650 2650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 5580 2650 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 5580 2650 50  0001 C CNN
 F 3 "" H 5650 2650 50  0000 C CNN
 	1    5650 2650
 	0    -1   -1   0   
@@ -231,7 +231,7 @@ U 1 1 5844A290
 P 2450 4550
 F 0 "R2" V 2530 4550 50  0000 C CNN
 F 1 "100k" V 2450 4550 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2380 4550 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 2380 4550 50  0001 C CNN
 F 3 "" H 2450 4550 50  0000 C CNN
 	1    2450 4550
 	0    1    1    0   
@@ -242,7 +242,7 @@ U 1 1 5844A297
 P 2650 4850
 F 0 "R6" V 2730 4850 50  0000 C CNN
 F 1 "20k" V 2650 4850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2580 4850 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 2580 4850 50  0001 C CNN
 F 3 "" H 2650 4850 50  0000 C CNN
 	1    2650 4850
 	-1   0    0    1   
@@ -253,7 +253,7 @@ U 1 1 5844A29E
 P 3150 5350
 F 0 "R10" V 3230 5350 50  0000 C CNN
 F 1 "20k" V 3150 5350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 3080 5350 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 3080 5350 50  0001 C CNN
 F 3 "" H 3150 5350 50  0000 C CNN
 	1    3150 5350
 	1    0    0    -1  
@@ -286,7 +286,7 @@ U 1 1 5844A2B3
 P 3700 5200
 F 0 "R14" V 3780 5200 50  0000 C CNN
 F 1 "10k" V 3700 5200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 3630 5200 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 3630 5200 50  0001 C CNN
 F 3 "" H 3700 5200 50  0000 C CNN
 	1    3700 5200
 	0    1    1    0   
@@ -301,7 +301,7 @@ U 1 1 5844A2BC
 P 4600 4500
 F 0 "R18" V 4680 4500 50  0000 C CNN
 F 1 "27k4" V 4600 4500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 4530 4500 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4530 4500 50  0001 C CNN
 F 3 "" H 4600 4500 50  0000 C CNN
 	1    4600 4500
 	0    1    1    0   
@@ -312,7 +312,7 @@ U 1 1 5844A2C3
 P 5000 4500
 F 0 "R22" V 5080 4500 50  0000 C CNN
 F 1 "27k4" V 5000 4500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 4930 4500 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4930 4500 50  0001 C CNN
 F 3 "" H 5000 4500 50  0000 C CNN
 	1    5000 4500
 	0    1    1    0   
@@ -323,7 +323,7 @@ U 1 1 5844A2CA
 P 5450 5500
 F 0 "R26" V 5530 5500 50  0000 C CNN
 F 1 "27k4" V 5450 5500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 5380 5500 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 5380 5500 50  0001 C CNN
 F 3 "" H 5450 5500 50  0000 C CNN
 	1    5450 5500
 	-1   0    0    1   
@@ -334,7 +334,7 @@ U 1 1 5844A2D1
 P 5700 5300
 F 0 "R30" V 5780 5300 50  0000 C CNN
 F 1 "16k2" V 5700 5300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 5630 5300 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 5630 5300 50  0001 C CNN
 F 3 "" H 5700 5300 50  0000 C CNN
 	1    5700 5300
 	0    -1   -1   0   
@@ -401,7 +401,7 @@ U 1 1 5844A325
 P 2500 7550
 F 0 "R3" V 2580 7550 50  0000 C CNN
 F 1 "100k" V 2500 7550 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2430 7550 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 2430 7550 50  0001 C CNN
 F 3 "" H 2500 7550 50  0000 C CNN
 	1    2500 7550
 	0    1    1    0   
@@ -412,7 +412,7 @@ U 1 1 5844A32C
 P 2700 7850
 F 0 "R7" V 2780 7850 50  0000 C CNN
 F 1 "20k" V 2700 7850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2630 7850 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 2630 7850 50  0001 C CNN
 F 3 "" H 2700 7850 50  0000 C CNN
 	1    2700 7850
 	-1   0    0    1   
@@ -423,7 +423,7 @@ U 1 1 5844A333
 P 3200 8350
 F 0 "R11" V 3280 8350 50  0000 C CNN
 F 1 "20k" V 3200 8350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 3130 8350 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 3130 8350 50  0001 C CNN
 F 3 "" H 3200 8350 50  0000 C CNN
 	1    3200 8350
 	1    0    0    -1  
@@ -456,7 +456,7 @@ U 1 1 5844A348
 P 3750 8200
 F 0 "R15" V 3830 8200 50  0000 C CNN
 F 1 "10k" V 3750 8200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 3680 8200 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 3680 8200 50  0001 C CNN
 F 3 "" H 3750 8200 50  0000 C CNN
 	1    3750 8200
 	0    1    1    0   
@@ -471,7 +471,7 @@ U 1 1 5844A351
 P 4650 7500
 F 0 "R19" V 4730 7500 50  0000 C CNN
 F 1 "27k4" V 4650 7500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 4580 7500 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4580 7500 50  0001 C CNN
 F 3 "" H 4650 7500 50  0000 C CNN
 	1    4650 7500
 	0    1    1    0   
@@ -482,7 +482,7 @@ U 1 1 5844A358
 P 5050 7500
 F 0 "R23" V 5130 7500 50  0000 C CNN
 F 1 "27k4" V 5050 7500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 4980 7500 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4980 7500 50  0001 C CNN
 F 3 "" H 5050 7500 50  0000 C CNN
 	1    5050 7500
 	0    1    1    0   
@@ -493,7 +493,7 @@ U 1 1 5844A35F
 P 5500 8500
 F 0 "R27" V 5580 8500 50  0000 C CNN
 F 1 "27k4" V 5500 8500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 5430 8500 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 5430 8500 50  0001 C CNN
 F 3 "" H 5500 8500 50  0000 C CNN
 	1    5500 8500
 	-1   0    0    1   
@@ -504,7 +504,7 @@ U 1 1 5844A366
 P 5750 8300
 F 0 "R31" V 5830 8300 50  0000 C CNN
 F 1 "16k2" V 5750 8300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 5680 8300 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 5680 8300 50  0001 C CNN
 F 3 "" H 5750 8300 50  0000 C CNN
 	1    5750 8300
 	0    -1   -1   0   
@@ -571,7 +571,7 @@ U 1 1 5844A3BA
 P 2550 10200
 F 0 "R4" V 2630 10200 50  0000 C CNN
 F 1 "100k" V 2550 10200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2480 10200 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 2480 10200 50  0001 C CNN
 F 3 "" H 2550 10200 50  0000 C CNN
 	1    2550 10200
 	0    1    1    0   
@@ -582,7 +582,7 @@ U 1 1 5844A3C1
 P 2750 10500
 F 0 "R8" V 2830 10500 50  0000 C CNN
 F 1 "20k" V 2750 10500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2680 10500 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 2680 10500 50  0001 C CNN
 F 3 "" H 2750 10500 50  0000 C CNN
 	1    2750 10500
 	-1   0    0    1   
@@ -593,7 +593,7 @@ U 1 1 5844A3C8
 P 3250 11000
 F 0 "R12" V 3330 11000 50  0000 C CNN
 F 1 "20k" V 3250 11000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 3180 11000 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 3180 11000 50  0001 C CNN
 F 3 "" H 3250 11000 50  0000 C CNN
 	1    3250 11000
 	1    0    0    -1  
@@ -626,7 +626,7 @@ U 1 1 5844A3DD
 P 3800 10850
 F 0 "R16" V 3880 10850 50  0000 C CNN
 F 1 "10k" V 3800 10850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 3730 10850 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 3730 10850 50  0001 C CNN
 F 3 "" H 3800 10850 50  0000 C CNN
 	1    3800 10850
 	0    1    1    0   
@@ -641,7 +641,7 @@ U 1 1 5844A3E6
 P 4700 10150
 F 0 "R20" V 4780 10150 50  0000 C CNN
 F 1 "27k4" V 4700 10150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 4630 10150 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4630 10150 50  0001 C CNN
 F 3 "" H 4700 10150 50  0000 C CNN
 	1    4700 10150
 	0    1    1    0   
@@ -652,7 +652,7 @@ U 1 1 5844A3ED
 P 5100 10150
 F 0 "R24" V 5180 10150 50  0000 C CNN
 F 1 "27k4" V 5100 10150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 5030 10150 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 5030 10150 50  0001 C CNN
 F 3 "" H 5100 10150 50  0000 C CNN
 	1    5100 10150
 	0    1    1    0   
@@ -663,7 +663,7 @@ U 1 1 5844A3F4
 P 5550 11150
 F 0 "R28" V 5630 11150 50  0000 C CNN
 F 1 "27k4" V 5550 11150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 5480 11150 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 5480 11150 50  0001 C CNN
 F 3 "" H 5550 11150 50  0000 C CNN
 	1    5550 11150
 	-1   0    0    1   
@@ -674,7 +674,7 @@ U 1 1 5844A3FB
 P 5800 10950
 F 0 "R32" V 5880 10950 50  0000 C CNN
 F 1 "16k2" V 5800 10950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 5730 10950 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 5730 10950 50  0001 C CNN
 F 3 "" H 5800 10950 50  0000 C CNN
 	1    5800 10950
 	0    -1   -1   0   
@@ -753,7 +753,7 @@ U 1 1 5844B625
 P 8550 4450
 F 0 "RinF1" V 8630 4450 50  0000 C CNN
 F 1 "30k1" V 8550 4450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 8480 4450 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 8480 4450 50  0001 C CNN
 F 3 "" H 8550 4450 50  0000 C CNN
 	1    8550 4450
 	1    0    0    -1  
@@ -764,7 +764,7 @@ U 1 1 5844B62C
 P 8550 5000
 F 0 "R33" V 8630 5000 50  0000 C CNN
 F 1 "10k" V 8550 5000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 8480 5000 50  0001 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 8480 5000 50  0001 C CNN
 F 3 "" H 8550 5000 50  0000 C CNN
 	1    8550 5000
 	-1   0    0    -1  
@@ -775,7 +775,7 @@ U 1 1 5844BE91
 P 8800 1850
 F 0 "R34" V 8880 1850 50  0000 C CNN
 F 1 "bead" V 8800 1850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 8730 1850 50  0001 C CNN
+F 2 "xnorman:Resistor_Vertical_RM5mm-xnor" V 8730 1850 50  0001 C CNN
 F 3 "" H 8800 1850 50  0000 C CNN
 	1    8800 1850
 	0    1    1    0   
@@ -786,7 +786,7 @@ U 1 1 5844BE98
 P 8800 2150
 F 0 "R35" V 8880 2150 50  0000 C CNN
 F 1 "bead" V 8800 2150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 8730 2150 50  0001 C CNN
+F 2 "xnorman:Resistor_Vertical_RM5mm-xnor" V 8730 2150 50  0001 C CNN
 F 3 "" H 8800 2150 50  0000 C CNN
 	1    8800 2150
 	0    -1   -1   0   
