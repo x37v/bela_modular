@@ -29,8 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:bela-extra-cache
-LIBS:bela-modular-cache
-LIBS:bela-input-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

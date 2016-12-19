@@ -29,8 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:bela-extra-cache
-LIBS:bela-modular-cache
-LIBS:bela-input-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -200,78 +198,78 @@ vfdD7
 $Comp
 L GND #PWR?
 U 1 1 5857965E
-P 1500 7050
-F 0 "#PWR?" H 1500 6800 50  0001 C CNN
-F 1 "GND" H 1500 6900 50  0000 C CNN
-F 2 "" H 1500 7050 50  0000 C CNN
-F 3 "" H 1500 7050 50  0000 C CNN
-	1    1500 7050
+P 1350 7050
+F 0 "#PWR?" H 1350 6800 50  0001 C CNN
+F 1 "GND" H 1350 6900 50  0000 C CNN
+F 2 "" H 1350 7050 50  0000 C CNN
+F 3 "" H 1350 7050 50  0000 C CNN
+	1    1350 7050
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 585796B9
-P 1500 6450
-F 0 "#PWR?" H 1500 6200 50  0001 C CNN
-F 1 "GND" H 1500 6300 50  0000 C CNN
-F 2 "" H 1500 6450 50  0000 C CNN
-F 3 "" H 1500 6450 50  0000 C CNN
-	1    1500 6450
+P 1350 6450
+F 0 "#PWR?" H 1350 6200 50  0001 C CNN
+F 1 "GND" H 1350 6300 50  0000 C CNN
+F 2 "" H 1350 6450 50  0000 C CNN
+F 3 "" H 1350 6450 50  0000 C CNN
+	1    1350 6450
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 585796DF
-P 1450 5900
-F 0 "#PWR?" H 1450 5650 50  0001 C CNN
-F 1 "GND" H 1450 5750 50  0000 C CNN
-F 2 "" H 1450 5900 50  0000 C CNN
-F 3 "" H 1450 5900 50  0000 C CNN
-	1    1450 5900
+P 1350 5900
+F 0 "#PWR?" H 1350 5650 50  0001 C CNN
+F 1 "GND" H 1350 5750 50  0000 C CNN
+F 2 "" H 1350 5900 50  0000 C CNN
+F 3 "" H 1350 5900 50  0000 C CNN
+	1    1350 5900
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5857970E
-P 1450 5250
-F 0 "#PWR?" H 1450 5000 50  0001 C CNN
-F 1 "GND" H 1450 5100 50  0000 C CNN
-F 2 "" H 1450 5250 50  0000 C CNN
-F 3 "" H 1450 5250 50  0000 C CNN
-	1    1450 5250
+P 1350 5250
+F 0 "#PWR?" H 1350 5000 50  0001 C CNN
+F 1 "GND" H 1350 5100 50  0000 C CNN
+F 2 "" H 1350 5250 50  0000 C CNN
+F 3 "" H 1350 5250 50  0000 C CNN
+	1    1350 5250
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 58579734
-P 1450 4750
-F 0 "#PWR?" H 1450 4500 50  0001 C CNN
-F 1 "GND" H 1450 4600 50  0000 C CNN
-F 2 "" H 1450 4750 50  0000 C CNN
-F 3 "" H 1450 4750 50  0000 C CNN
-	1    1450 4750
+P 1350 4750
+F 0 "#PWR?" H 1350 4500 50  0001 C CNN
+F 1 "GND" H 1350 4600 50  0000 C CNN
+F 2 "" H 1350 4750 50  0000 C CNN
+F 3 "" H 1350 4750 50  0000 C CNN
+	1    1350 4750
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 58579763
-P 1450 4150
-F 0 "#PWR?" H 1450 3900 50  0001 C CNN
-F 1 "GND" H 1450 4000 50  0000 C CNN
-F 2 "" H 1450 4150 50  0000 C CNN
-F 3 "" H 1450 4150 50  0000 C CNN
-	1    1450 4150
+P 1350 4150
+F 0 "#PWR?" H 1350 3900 50  0001 C CNN
+F 1 "GND" H 1350 4000 50  0000 C CNN
+F 2 "" H 1350 4150 50  0000 C CNN
+F 3 "" H 1350 4150 50  0000 C CNN
+	1    1350 4150
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 58579789
-P 1450 3600
-F 0 "#PWR?" H 1450 3350 50  0001 C CNN
-F 1 "GND" H 1450 3450 50  0000 C CNN
-F 2 "" H 1450 3600 50  0000 C CNN
-F 3 "" H 1450 3600 50  0000 C CNN
-	1    1450 3600
+P 1350 3600
+F 0 "#PWR?" H 1350 3350 50  0001 C CNN
+F 1 "GND" H 1350 3450 50  0000 C CNN
+F 2 "" H 1350 3600 50  0000 C CNN
+F 3 "" H 1350 3600 50  0000 C CNN
+	1    1350 3600
 	0    1    1    0   
 $EndComp
 Text GLabel 1250 7650 0    60   Input ~ 0
@@ -331,45 +329,45 @@ moddigout1
 $Comp
 L GND #PWR?
 U 1 1 58579E92
-P 5350 5150
-F 0 "#PWR?" H 5350 4900 50  0001 C CNN
-F 1 "GND" H 5350 5000 50  0000 C CNN
-F 2 "" H 5350 5150 50  0000 C CNN
-F 3 "" H 5350 5150 50  0000 C CNN
-	1    5350 5150
+P 5200 5150
+F 0 "#PWR?" H 5200 4900 50  0001 C CNN
+F 1 "GND" H 5200 5000 50  0000 C CNN
+F 2 "" H 5200 5150 50  0000 C CNN
+F 3 "" H 5200 5150 50  0000 C CNN
+	1    5200 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 58579E98
-P 5350 4650
-F 0 "#PWR?" H 5350 4400 50  0001 C CNN
-F 1 "GND" H 5350 4500 50  0000 C CNN
-F 2 "" H 5350 4650 50  0000 C CNN
-F 3 "" H 5350 4650 50  0000 C CNN
-	1    5350 4650
+P 5200 4650
+F 0 "#PWR?" H 5200 4400 50  0001 C CNN
+F 1 "GND" H 5200 4500 50  0000 C CNN
+F 2 "" H 5200 4650 50  0000 C CNN
+F 3 "" H 5200 4650 50  0000 C CNN
+	1    5200 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 58579E9E
-P 5350 4050
-F 0 "#PWR?" H 5350 3800 50  0001 C CNN
-F 1 "GND" H 5350 3900 50  0000 C CNN
-F 2 "" H 5350 4050 50  0000 C CNN
-F 3 "" H 5350 4050 50  0000 C CNN
-	1    5350 4050
+P 5200 4050
+F 0 "#PWR?" H 5200 3800 50  0001 C CNN
+F 1 "GND" H 5200 3900 50  0000 C CNN
+F 2 "" H 5200 4050 50  0000 C CNN
+F 3 "" H 5200 4050 50  0000 C CNN
+	1    5200 4050
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 58579EA4
-P 5350 3500
-F 0 "#PWR?" H 5350 3250 50  0001 C CNN
-F 1 "GND" H 5350 3350 50  0000 C CNN
-F 2 "" H 5350 3500 50  0000 C CNN
-F 3 "" H 5350 3500 50  0000 C CNN
-	1    5350 3500
+P 5200 3500
+F 0 "#PWR?" H 5200 3250 50  0001 C CNN
+F 1 "GND" H 5200 3350 50  0000 C CNN
+F 2 "" H 5200 3500 50  0000 C CNN
+F 3 "" H 5200 3500 50  0000 C CNN
+	1    5200 3500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -427,45 +425,45 @@ moddigout5
 $Comp
 L GND #PWR?
 U 1 1 5857A461
-P 5350 7450
-F 0 "#PWR?" H 5350 7200 50  0001 C CNN
-F 1 "GND" H 5350 7300 50  0000 C CNN
-F 2 "" H 5350 7450 50  0000 C CNN
-F 3 "" H 5350 7450 50  0000 C CNN
-	1    5350 7450
+P 5200 7450
+F 0 "#PWR?" H 5200 7200 50  0001 C CNN
+F 1 "GND" H 5200 7300 50  0000 C CNN
+F 2 "" H 5200 7450 50  0000 C CNN
+F 3 "" H 5200 7450 50  0000 C CNN
+	1    5200 7450
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5857A467
-P 5350 6950
-F 0 "#PWR?" H 5350 6700 50  0001 C CNN
-F 1 "GND" H 5350 6800 50  0000 C CNN
-F 2 "" H 5350 6950 50  0000 C CNN
-F 3 "" H 5350 6950 50  0000 C CNN
-	1    5350 6950
+P 5200 6950
+F 0 "#PWR?" H 5200 6700 50  0001 C CNN
+F 1 "GND" H 5200 6800 50  0000 C CNN
+F 2 "" H 5200 6950 50  0000 C CNN
+F 3 "" H 5200 6950 50  0000 C CNN
+	1    5200 6950
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5857A46D
-P 5350 6350
-F 0 "#PWR?" H 5350 6100 50  0001 C CNN
-F 1 "GND" H 5350 6200 50  0000 C CNN
-F 2 "" H 5350 6350 50  0000 C CNN
-F 3 "" H 5350 6350 50  0000 C CNN
-	1    5350 6350
+P 5200 6350
+F 0 "#PWR?" H 5200 6100 50  0001 C CNN
+F 1 "GND" H 5200 6200 50  0000 C CNN
+F 2 "" H 5200 6350 50  0000 C CNN
+F 3 "" H 5200 6350 50  0000 C CNN
+	1    5200 6350
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5857A473
-P 5350 5800
-F 0 "#PWR?" H 5350 5550 50  0001 C CNN
-F 1 "GND" H 5350 5650 50  0000 C CNN
-F 2 "" H 5350 5800 50  0000 C CNN
-F 3 "" H 5350 5800 50  0000 C CNN
-	1    5350 5800
+P 5200 5800
+F 0 "#PWR?" H 5200 5550 50  0001 C CNN
+F 1 "GND" H 5200 5650 50  0000 C CNN
+F 2 "" H 5200 5800 50  0000 C CNN
+F 3 "" H 5200 5800 50  0000 C CNN
+	1    5200 5800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -480,6 +478,98 @@ F 3 "" H 7500 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7500 1250 1    60   Input ~ 0
+3.3v
+$Comp
+L GND #PWR?
+U 1 1 5857B8FE
+P 7500 2750
+F 0 "#PWR?" H 7500 2500 50  0001 C CNN
+F 1 "GND" H 7500 2600 50  0000 C CNN
+F 2 "" H 7500 2750 50  0000 C CNN
+F 3 "" H 7500 2750 50  0000 C CNN
+	1    7500 2750
+	1    0    0    -1  
+$EndComp
+Text Notes 7300 800  0    60   ~ 0
+5v to 3v
+Text GLabel 6500 1500 0    60   Input ~ 0
+moddigin1
+Text GLabel 6500 1600 0    60   Input ~ 0
+moddigin2
+Text GLabel 6500 1700 0    60   Input ~ 0
+moddigin3
+Text GLabel 6500 1800 0    60   Input ~ 0
+moddigin4
+Text GLabel 8400 1500 2    60   Output ~ 0
+beladigin1
+Text GLabel 8400 1600 2    60   Output ~ 0
+beladigin2
+Text GLabel 8400 1700 2    60   Output ~ 0
+beladigin3
+Text GLabel 8400 1800 2    60   Output ~ 0
+beladigin4
+$Comp
+L CONN_01X04 P?
+U 1 1 5857D42E
+P 9500 3250
+F 0 "P?" H 9500 3500 50  0000 C CNN
+F 1 "enc+btn1" V 9600 3250 50  0000 C CNN
+F 2 "" H 9500 3250 50  0000 C CNN
+F 3 "" H 9500 3250 50  0000 C CNN
+	1    9500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 5857D4CE
+P 9500 3750
+F 0 "P?" H 9500 4000 50  0000 C CNN
+F 1 "enc+btn2" V 9600 3750 50  0000 C CNN
+F 2 "" H 9500 3750 50  0000 C CNN
+F 3 "" H 9500 3750 50  0000 C CNN
+	1    9500 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 4350 0    60   Input ~ 0
+beladigout1
+Text GLabel 4950 4850 0    60   Input ~ 0
+beladigout2
+Text GLabel 4950 5500 0    60   Input ~ 0
+beladigout3
+Text GLabel 4950 6050 0    60   Input ~ 0
+beladigout4
+Text GLabel 4950 6650 0    60   Input ~ 0
+beladigout5
+Text GLabel 4950 7150 0    60   Input ~ 0
+beladigout6
+Text GLabel 9050 3200 0    60   Output ~ 0
+beladigin6
+Text GLabel 9050 3700 0    60   Output ~ 0
+beladigin9
+Text GLabel 9050 3800 0    60   Output ~ 0
+beladigin10
+Text GLabel 9050 3100 0    60   Output ~ 0
+beladigin5
+Text GLabel 9050 3300 0    60   Output ~ 0
+beladigin7
+Text GLabel 9050 3600 0    60   Output ~ 0
+beladigin8
+$Comp
+L GND #PWR?
+U 1 1 5857E98E
+P 9200 4000
+F 0 "#PWR?" H 9200 3750 50  0001 C CNN
+F 1 "GND" H 9200 3850 50  0000 C CNN
+F 2 "" H 9200 4000 50  0000 C CNN
+F 3 "" H 9200 4000 50  0000 C CNN
+	1    9200 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 3500 2900 0    60   ~ 0
+need to toggle the vfdD7 enable and read it back through the 5 to 3.3v converter
+Text GLabel 6550 2200 0    60   Input ~ 0
+vfdpBusy
+Text GLabel 6650 2400 0    60   Input ~ 0
 3.3v
 Wire Wire Line
 	2400 1650 2100 1650
@@ -525,19 +615,19 @@ Wire Wire Line
 Wire Wire Line
 	2150 7250 2350 7250
 Wire Wire Line
-	1700 3600 1450 3600
+	1350 3600 1700 3600
 Wire Wire Line
-	1450 4150 1700 4150
+	1350 4150 1700 4150
 Wire Wire Line
-	1700 4750 1450 4750
+	1350 4750 1700 4750
 Wire Wire Line
-	1450 5250 1700 5250
+	1350 5250 1700 5250
 Wire Wire Line
-	1700 5900 1450 5900
+	1350 5900 1700 5900
 Wire Wire Line
-	1500 6450 1700 6450
+	1350 6450 1700 6450
 Wire Wire Line
-	1700 7050 1500 7050
+	1350 7050 1700 7050
 Wire Wire Line
 	1250 7650 1700 7650
 Wire Wire Line
@@ -553,13 +643,13 @@ Wire Wire Line
 Wire Wire Line
 	6050 4850 6250 4850
 Wire Wire Line
-	5600 3500 5350 3500
+	5600 3500 5200 3500
 Wire Wire Line
-	5350 4050 5600 4050
+	5200 4050 5600 4050
 Wire Wire Line
-	5600 4650 5350 4650
+	5600 4650 5200 4650
 Wire Wire Line
-	5350 5150 5600 5150
+	5200 5150 5600 5150
 Wire Wire Line
 	6250 5500 6050 5500
 Wire Wire Line
@@ -569,38 +659,17 @@ Wire Wire Line
 Wire Wire Line
 	6050 7150 6250 7150
 Wire Wire Line
-	5600 5800 5350 5800
+	5600 5800 5200 5800
 Wire Wire Line
-	5350 6350 5600 6350
+	5200 6350 5600 6350
 Wire Wire Line
-	5600 6950 5350 6950
+	5600 6950 5200 6950
 Wire Wire Line
-	5350 7450 5600 7450
+	5200 7450 5600 7450
 Wire Wire Line
 	7500 1250 7500 1450
-$Comp
-L GND #PWR?
-U 1 1 5857B8FE
-P 7500 2650
-F 0 "#PWR?" H 7500 2400 50  0001 C CNN
-F 1 "GND" H 7500 2500 50  0000 C CNN
-F 2 "" H 7500 2650 50  0000 C CNN
-F 3 "" H 7500 2650 50  0000 C CNN
-	1    7500 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7500 2650 7500 2550
-Text Notes 7300 800  0    60   ~ 0
-5v to 3v
-Text GLabel 6500 1500 0    60   Output ~ 0
-moddigin1
-Text GLabel 6500 1600 0    60   Output ~ 0
-moddigin2
-Text GLabel 6500 1700 0    60   Output ~ 0
-moddigin3
-Text GLabel 6500 1800 0    60   Output ~ 0
-moddigin4
+	7500 2550 7500 2750
 Wire Wire Line
 	6800 1500 6500 1500
 Wire Wire Line
@@ -609,14 +678,6 @@ Wire Wire Line
 	6800 1700 6500 1700
 Wire Wire Line
 	6800 1800 6500 1800
-Text GLabel 8400 1500 2    60   Input ~ 0
-beladigin1
-Text GLabel 8400 1600 2    60   Input ~ 0
-beladigin2
-Text GLabel 8400 1700 2    60   Input ~ 0
-beladigin3
-Text GLabel 8400 1800 2    60   Input ~ 0
-beladigin4
 Wire Wire Line
 	8200 1500 8400 1500
 Wire Wire Line
@@ -625,40 +686,6 @@ Wire Wire Line
 	8200 1700 8400 1700
 Wire Wire Line
 	8400 1800 8200 1800
-$Comp
-L CONN_01X04 P?
-U 1 1 5857D42E
-P 9500 3250
-F 0 "P?" H 9500 3500 50  0000 C CNN
-F 1 "enc+btn1" V 9600 3250 50  0000 C CNN
-F 2 "" H 9500 3250 50  0000 C CNN
-F 3 "" H 9500 3250 50  0000 C CNN
-	1    9500 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X04 P?
-U 1 1 5857D4CE
-P 9500 3750
-F 0 "P?" H 9500 4000 50  0000 C CNN
-F 1 "enc+btn2" V 9600 3750 50  0000 C CNN
-F 2 "" H 9500 3750 50  0000 C CNN
-F 3 "" H 9500 3750 50  0000 C CNN
-	1    9500 3750
-	1    0    0    -1  
-$EndComp
-Text GLabel 4950 4350 0    60   Output ~ 0
-beladigout1
-Text GLabel 4950 4850 0    60   Output ~ 0
-beladigout2
-Text GLabel 4950 5500 0    60   Output ~ 0
-beladigout3
-Text GLabel 4950 6050 0    60   Output ~ 0
-beladigout4
-Text GLabel 4950 6650 0    60   Output ~ 0
-beladigout5
-Text GLabel 4950 7150 0    60   Output ~ 0
-beladigout6
 Wire Wire Line
 	4950 4350 5150 4350
 Wire Wire Line
@@ -671,18 +698,6 @@ Wire Wire Line
 	4950 6650 5150 6650
 Wire Wire Line
 	4950 7150 5150 7150
-Text GLabel 9050 3200 0    60   Input ~ 0
-beladigin6
-Text GLabel 9050 3700 0    60   Input ~ 0
-beladigin9
-Text GLabel 9050 3800 0    60   Input ~ 0
-beladigin10
-Text GLabel 9050 3100 0    60   Input ~ 0
-beladigin5
-Text GLabel 9050 3300 0    60   Input ~ 0
-beladigin7
-Text GLabel 9050 3600 0    60   Input ~ 0
-beladigin8
 Wire Wire Line
 	9050 3100 9300 3100
 Wire Wire Line
@@ -701,18 +716,151 @@ Wire Wire Line
 	9200 3400 9200 4000
 Wire Wire Line
 	9200 3900 9300 3900
-$Comp
-L GND #PWR?
-U 1 1 5857E98E
-P 9200 4000
-F 0 "#PWR?" H 9200 3750 50  0001 C CNN
-F 1 "GND" H 9200 3850 50  0000 C CNN
-F 2 "" H 9200 4000 50  0000 C CNN
-F 3 "" H 9200 4000 50  0000 C CNN
-	1    9200 4000
-	1    0    0    -1  
-$EndComp
 Connection ~ 9200 3900
-Text Notes 3500 2900 0    60   ~ 0
-need to toggle the vfdD7 enable and read it back through the 5 to 3.3v converter
+Wire Wire Line
+	6550 2200 6800 2200
+Wire Wire Line
+	6800 2500 6700 2500
+Wire Wire Line
+	6700 2500 6700 2650
+Wire Wire Line
+	6700 2650 7500 2650
+Connection ~ 7500 2650
+Wire Wire Line
+	6800 2400 6650 2400
+Wire Wire Line
+	1500 3600 1500 3450
+Wire Wire Line
+	1500 3450 1550 3450
+Connection ~ 1500 3600
+Wire Wire Line
+	1500 4150 1500 4000
+Wire Wire Line
+	1500 4000 1550 4000
+Connection ~ 1500 4150
+Wire Wire Line
+	1500 4750 1500 4600
+Wire Wire Line
+	1500 4600 1550 4600
+Connection ~ 1500 4750
+Wire Wire Line
+	1500 5250 1500 5100
+Wire Wire Line
+	1500 5100 1550 5100
+Connection ~ 1500 5250
+Wire Wire Line
+	1500 5900 1500 5750
+Wire Wire Line
+	1500 5750 1550 5750
+Connection ~ 1500 5900
+Wire Wire Line
+	1500 6450 1500 6300
+Wire Wire Line
+	1500 6300 1550 6300
+Connection ~ 1500 6450
+Wire Wire Line
+	1500 6900 1500 7400
+Wire Wire Line
+	1500 6900 1550 6900
+Connection ~ 1500 7050
+Wire Wire Line
+	1500 7400 1550 7400
+Wire Wire Line
+	1250 3150 1550 3150
+Wire Wire Line
+	1400 3150 1400 7100
+Wire Wire Line
+	1400 3700 1550 3700
+Wire Wire Line
+	1400 4300 1550 4300
+Connection ~ 1400 3700
+Wire Wire Line
+	1400 4800 1550 4800
+Connection ~ 1400 4300
+Wire Wire Line
+	1400 5450 1550 5450
+Connection ~ 1400 4800
+Wire Wire Line
+	1400 6000 1550 6000
+Connection ~ 1400 5450
+Wire Wire Line
+	1400 6600 1550 6600
+Connection ~ 1400 6000
+Wire Wire Line
+	1400 7100 1550 7100
+Connection ~ 1400 6600
+Wire Wire Line
+	5400 3500 5400 3350
+Wire Wire Line
+	5400 3350 5450 3350
+Connection ~ 5400 3500
+Wire Wire Line
+	5400 4050 5400 3900
+Wire Wire Line
+	5400 3900 5450 3900
+Connection ~ 5400 4050
+Wire Wire Line
+	5400 4650 5400 4500
+Wire Wire Line
+	5400 4500 5450 4500
+Connection ~ 5400 4650
+Wire Wire Line
+	5400 5150 5400 5000
+Wire Wire Line
+	5400 5000 5450 5000
+Connection ~ 5400 5150
+Wire Wire Line
+	5400 5800 5400 5650
+Wire Wire Line
+	5400 5650 5450 5650
+Connection ~ 5400 5800
+Wire Wire Line
+	5400 6350 5400 6200
+Wire Wire Line
+	5400 6200 5450 6200
+Connection ~ 5400 6350
+Wire Wire Line
+	5400 6950 5400 6800
+Wire Wire Line
+	5400 6800 5450 6800
+Connection ~ 5400 6950
+Wire Wire Line
+	5400 7450 5400 7300
+Wire Wire Line
+	5400 7300 5450 7300
+Connection ~ 5400 7450
+Wire Wire Line
+	5350 7000 5450 7000
+Wire Wire Line
+	5350 3050 5350 7000
+Wire Wire Line
+	5350 6500 5450 6500
+Wire Wire Line
+	5350 5900 5450 5900
+Connection ~ 5350 6500
+Wire Wire Line
+	5450 5350 5350 5350
+Connection ~ 5350 5900
+Wire Wire Line
+	5450 4700 5350 4700
+Connection ~ 5350 5350
+Wire Wire Line
+	5450 4200 5350 4200
+Connection ~ 5350 4700
+Wire Wire Line
+	5450 3600 5350 3600
+Connection ~ 5350 4200
+Wire Wire Line
+	5050 3050 5450 3050
+Connection ~ 5350 3600
+Text GLabel 5050 3050 0    60   Input ~ 0
+5v
+Connection ~ 5350 3050
+Text GLabel 1250 3150 0    60   Input ~ 0
+5v
+Connection ~ 1400 3150
+Text Notes 550  1100 0    60   ~ 0
+NOTE\n\nTo ensure the high-impedance state during power up or power down, OE should be tied to VCC through a pull-up resistor;\nthe minimum value of the resistor is determined by the current-sinking capability of the driver.\n\nboth input and output chips indicate this
+Text Notes 1150 1300 0    60   ~ 0
+NOTE should protect digital ins and outs.. resistors on outs.. diodes on both ins and outs?
 $EndSCHEMATC
