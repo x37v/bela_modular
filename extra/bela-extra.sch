@@ -1,0 +1,463 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bela-extra-cache
+LIBS:bela-modular-cache
+LIBS:bela-input-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R?
+U 1 1 58571AB6
+P 9200 1250
+F 0 "R?" V 9280 1250 50  0000 C CNN
+F 1 "bead" V 9200 1250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 9130 1250 50  0001 C CNN
+F 3 "" H 9200 1250 50  0000 C CNN
+	1    9200 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58571AB7
+P 9200 1550
+F 0 "R?" V 9280 1550 50  0000 C CNN
+F 1 "bead" V 9200 1550 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 9130 1550 50  0001 C CNN
+F 3 "" H 9200 1550 50  0000 C CNN
+	1    9200 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58571AB8
+P 9000 1750
+F 0 "#PWR?" H 9000 1500 50  0001 C CNN
+F 1 "GND" H 9000 1600 50  0000 C CNN
+F 2 "" H 9000 1750 50  0000 C CNN
+F 3 "" H 9000 1750 50  0000 C CNN
+	1    9000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 58571AB9
+P 9400 1750
+F 0 "C?" H 9425 1850 50  0000 L CNN
+F 1 "10uF" H 9425 1650 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 9438 1600 50  0001 C CNN
+F 3 "" H 9400 1750 50  0000 C CNN
+	1    9400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 58571ABA
+P 9400 1050
+F 0 "C?" H 9425 1150 50  0000 L CNN
+F 1 "10uF" H 9425 950 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 9438 900 50  0001 C CNN
+F 3 "" H 9400 1050 50  0000 C CNN
+	1    9400 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L MTA-156-4 P?
+U 1 1 58571ABB
+P 8750 1400
+F 0 "P?" H 8750 1650 50  0000 C CNN
+F 1 "MTA-156-4" V 8850 1400 50  0000 C CNN
+F 2 "mta-156:MTA-156-4" H 8750 1400 50  0001 C CNN
+F 3 "" H 8750 1400 50  0000 C CNN
+	1    8750 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 58571ABC
+P 9650 900
+F 0 "#PWR?" H 9650 750 50  0001 C CNN
+F 1 "VCC" H 9650 1050 50  0000 C CNN
+F 2 "" H 9650 900 50  0000 C CNN
+F 3 "" H 9650 900 50  0000 C CNN
+	1    9650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 58571ABD
+P 9650 2050
+F 0 "#PWR?" H 9650 1900 50  0001 C CNN
+F 1 "VSS" H 9650 2200 50  0000 C CNN
+F 2 "" H 9650 2050 50  0000 C CNN
+F 3 "" H 9650 2050 50  0000 C CNN
+	1    9650 2050
+	-1   0    0    1   
+$EndComp
+Text GLabel 9650 1250 2    60   Output ~ 0
+VCC
+Text GLabel 9650 1550 2    60   Output ~ 0
+VSS
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 58571C50
+P 9900 1000
+F 0 "#FLG?" H 9900 1095 50  0001 C CNN
+F 1 "PWR_FLAG" H 9900 1180 50  0000 C CNN
+F 2 "" H 9900 1000 50  0000 C CNN
+F 3 "" H 9900 1000 50  0000 C CNN
+	1    9900 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 58571C6E
+P 9950 1800
+F 0 "#FLG?" H 9950 1895 50  0001 C CNN
+F 1 "PWR_FLAG" H 9950 1980 50  0000 C CNN
+F 2 "" H 9950 1800 50  0000 C CNN
+F 3 "" H 9950 1800 50  0000 C CNN
+	1    9950 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 58571C96
+P 9250 2050
+F 0 "#FLG?" H 9250 2145 50  0001 C CNN
+F 1 "PWR_FLAG" H 9250 2230 50  0000 C CNN
+F 2 "" H 9250 2050 50  0000 C CNN
+F 3 "" H 9250 2050 50  0000 C CNN
+	1    9250 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 1550 8950 1550
+Wire Wire Line
+	9050 1250 8950 1250
+Wire Wire Line
+	8950 1350 8950 1450
+Wire Wire Line
+	8950 1350 9000 1350
+Wire Wire Line
+	9000 900  9000 1750
+Wire Wire Line
+	9650 1550 9650 2050
+Wire Wire Line
+	9350 1550 9650 1550
+Wire Wire Line
+	9150 1900 9400 1900
+Wire Wire Line
+	9150 1900 9150 1700
+Wire Wire Line
+	9150 1700 9000 1700
+Connection ~ 9000 1700
+Wire Wire Line
+	9400 900  9000 900 
+Connection ~ 9000 1350
+Wire Wire Line
+	9400 1200 9400 1250
+Connection ~ 9400 1250
+Wire Wire Line
+	9400 1600 9400 1550
+Connection ~ 9400 1550
+Wire Wire Line
+	9650 1250 9350 1250
+Wire Wire Line
+	9650 900  9650 1250
+Wire Wire Line
+	9250 2050 9250 1900
+Connection ~ 9250 1900
+Wire Wire Line
+	9950 1800 9650 1800
+Connection ~ 9650 1800
+Wire Wire Line
+	9900 1000 9650 1000
+Connection ~ 9650 1000
+$Comp
+L LM7805 U?
+U 1 1 58571DAF
+P 9350 3200
+F 0 "U?" H 9500 3004 50  0000 C CNN
+F 1 "LM78S05" H 9350 3400 50  0000 C CNN
+F 2 "" H 9350 3200 50  0000 C CNN
+F 3 "" H 9350 3200 50  0000 C CNN
+	1    9350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58571EBD
+P 10350 3150
+F 0 "R?" V 10430 3150 50  0000 C CNN
+F 1 "bead" V 10350 3150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 10280 3150 50  0001 C CNN
+F 3 "" H 10350 3150 50  0000 C CNN
+	1    10350 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C?
+U 1 1 58571F15
+P 9900 3350
+F 0 "C?" H 9925 3450 50  0000 L CNN
+F 1 "47uF" H 9925 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 9938 3200 50  0001 C CNN
+F 3 "" H 9900 3350 50  0000 C CNN
+	1    9900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 58571F59
+P 8750 3350
+F 0 "C?" H 8775 3450 50  0000 L CNN
+F 1 "220uF" H 8775 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 8788 3200 50  0001 C CNN
+F 3 "" H 8750 3350 50  0000 C CNN
+	1    8750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 58571F9F
+P 8400 3150
+F 0 "D?" H 8400 3250 50  0000 C CNN
+F 1 "1N5400" H 8400 3050 50  0000 C CNN
+F 2 "" H 8400 3150 50  0000 C CNN
+F 3 "" H 8400 3150 50  0000 C CNN
+	1    8400 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 3650 9350 3450
+Wire Wire Line
+	8750 3650 10000 3650
+Wire Wire Line
+	8750 3650 8750 3500
+Wire Wire Line
+	9900 3650 9900 3500
+Connection ~ 9350 3650
+Wire Wire Line
+	8550 3150 8950 3150
+Wire Wire Line
+	8750 3150 8750 3200
+Connection ~ 8750 3150
+Wire Wire Line
+	9750 3150 10200 3150
+Wire Wire Line
+	9900 3150 9900 3200
+Connection ~ 9900 3150
+Text GLabel 7900 3150 0    60   Input ~ 0
+VCC
+Wire Wire Line
+	7900 3150 8250 3150
+$Comp
+L GND #PWR?
+U 1 1 58572336
+P 9200 3750
+F 0 "#PWR?" H 9200 3500 50  0001 C CNN
+F 1 "GND" H 9200 3600 50  0000 C CNN
+F 2 "" H 9200 3750 50  0000 C CNN
+F 3 "" H 9200 3750 50  0000 C CNN
+	1    9200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3750 9200 3650
+Connection ~ 9200 3650
+Text GLabel 10050 2950 1    60   Output ~ 0
+5v
+Wire Wire Line
+	10050 2950 10050 3150
+Connection ~ 10050 3150
+$Sheet
+S 650  650  1350 1350
+U 58574F5D
+F0 "acanalog" 60
+F1 "acanalog.sch" 60
+$EndSheet
+$Comp
+L C C?
+U 1 1 58577A2A
+P 9800 5150
+F 0 "C?" H 9825 5250 50  0000 L CNN
+F 1 "10n" H 9825 5050 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 9838 5000 50  0001 C CNN
+F 3 "" H 9800 5150 50  0000 C CNN
+	1    9800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58577A31
+P 9800 5550
+F 0 "C?" H 9825 5650 50  0000 L CNN
+F 1 "10n" H 9825 5450 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 9838 5400 50  0001 C CNN
+F 3 "" H 9800 5550 50  0000 C CNN
+	1    9800 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58577A38
+P 10150 5150
+F 0 "C?" H 10175 5250 50  0000 L CNN
+F 1 "10n" H 10175 5050 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 10188 5000 50  0001 C CNN
+F 3 "" H 10150 5150 50  0000 C CNN
+	1    10150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58577A3F
+P 10150 5550
+F 0 "C?" H 10175 5650 50  0000 L CNN
+F 1 "10n" H 10175 5450 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 10188 5400 50  0001 C CNN
+F 3 "" H 10150 5550 50  0000 C CNN
+	1    10150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58577A46
+P 10500 5150
+F 0 "C?" H 10525 5250 50  0000 L CNN
+F 1 "10n" H 10525 5050 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 10538 5000 50  0001 C CNN
+F 3 "" H 10500 5150 50  0000 C CNN
+	1    10500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58577A4D
+P 10500 5550
+F 0 "C?" H 10525 5650 50  0000 L CNN
+F 1 "10n" H 10525 5450 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 10538 5400 50  0001 C CNN
+F 3 "" H 10500 5550 50  0000 C CNN
+	1    10500 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 5300 9800 5400
+Connection ~ 9800 5350
+Wire Wire Line
+	9800 4650 9800 5000
+Wire Wire Line
+	9800 5700 9800 6000
+Wire Wire Line
+	10150 5300 10150 5400
+Connection ~ 10150 5350
+Wire Wire Line
+	10150 4650 10150 5000
+Wire Wire Line
+	10150 6000 10150 5700
+Wire Wire Line
+	10500 5300 10500 5400
+Connection ~ 10500 5350
+Wire Wire Line
+	10500 4650 10500 5000
+Wire Wire Line
+	10500 6000 10500 5700
+Text GLabel 9550 4650 0    60   Input ~ 0
+VCC
+Text GLabel 9500 6000 0    60   Input ~ 0
+VSS
+$Comp
+L GND #PWR?
+U 1 1 58577A62
+P 9350 5450
+F 0 "#PWR?" H 9350 5200 50  0001 C CNN
+F 1 "GND" H 9350 5300 50  0000 C CNN
+F 2 "" H 9350 5450 50  0000 C CNN
+F 3 "" H 9350 5450 50  0000 C CNN
+	1    9350 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5450 9350 5350
+Wire Wire Line
+	9350 5350 10500 5350
+Wire Wire Line
+	9500 6000 10500 6000
+Connection ~ 9800 6000
+Connection ~ 10150 6000
+Wire Wire Line
+	9550 4650 10500 4650
+Connection ~ 9800 4650
+Connection ~ 10150 4650
+Text Notes 9800 4500 0    60   ~ 0
+decoupling caps
+$Comp
+L CONN_01X02 P?
+U 1 1 58577BC4
+P 10800 3550
+F 0 "P?" H 10800 3700 50  0000 C CNN
+F 1 "bela_power" V 10900 3550 50  0000 C CNN
+F 2 "" H 10800 3550 50  0000 C CNN
+F 3 "" H 10800 3550 50  0000 C CNN
+	1    10800 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 3500 10600 3500
+Wire Wire Line
+	10600 3600 10000 3600
+Wire Wire Line
+	10000 3600 10000 3650
+Connection ~ 9900 3650
+Wire Wire Line
+	10500 3150 10550 3150
+Wire Wire Line
+	10550 3150 10550 3500
+$Sheet
+S 2300 650  1400 1350
+U 5857881D
+F0 "VFD" 60
+F1 "vfd.sch" 60
+$EndSheet
+$EndSCHEMATC
