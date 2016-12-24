@@ -3,9 +3,9 @@
   (general
     (links 120)
     (no_connects 0)
-    (area 76.124999 69.774999 190.575001 101.675001)
+    (area 70.452857 64.675 196.247143 103.065)
     (thickness 1.6)
-    (drawings 13)
+    (drawings 15)
     (tracks 399)
     (zones 0)
     (modules 67)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -2214,6 +2214,12 @@
     )
   )
 
+  (gr_text + (at 88.3539 96.7105) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.15875)))
+  )
+  (gr_text + (at 88.9635 72.5297) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.15875)))
+  )
   (gr_text 0 (at 129.2225 100.584) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
