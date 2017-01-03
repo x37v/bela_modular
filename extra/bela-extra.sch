@@ -470,7 +470,7 @@ F 3 "" H 6950 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 2400 5600 2400
+	5600 2400 6750 2400
 Text GLabel 6150 2100 1    60   Output ~ 0
 5v
 Wire Wire Line
@@ -523,4 +523,106 @@ F 3 "" H 5400 2450 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	6150 2300 6750 2300
+$Comp
+L CONN_02X23 P?
+U 1 1 586B0458
+P 1750 4800
+F 0 "P?" H 1750 6000 50  0000 C CNN
+F 1 "bbp9" V 1750 4800 50  0000 C CNN
+F 2 "" H 1750 3950 50  0000 C CNN
+F 3 "" H 1750 3950 50  0000 C CNN
+	1    1750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X23 P?
+U 1 1 586B04DD
+P 5000 4800
+F 0 "P?" H 5000 6000 50  0000 C CNN
+F 1 "bbbp8" V 5000 4800 50  0000 C CNN
+F 2 "" H 5000 3950 50  0000 C CNN
+F 3 "" H 5000 3950 50  0000 C CNN
+	1    5000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 586B08A6
+P 5800 3700
+F 0 "#PWR?" H 5800 3450 50  0001 C CNN
+F 1 "GND" H 5800 3550 50  0000 C CNN
+F 2 "" H 5800 3700 50  0000 C CNN
+F 3 "" H 5800 3700 50  0000 C CNN
+	1    5800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3700 5800 3700
+Wire Wire Line
+	4750 3700 4750 3550
+Wire Wire Line
+	4750 3550 5300 3550
+Wire Wire Line
+	5300 3550 5300 3700
+Connection ~ 5300 3700
+Text GLabel 5300 5200 2    60   Output ~ 0
+bb-vfdD7enable
+Text GLabel 5350 5900 2    60   Output ~ 0
+bb-vfdD0
+Text GLabel 4650 5900 0    60   Output ~ 0
+bb-vfdD1
+Text GLabel 5350 5800 2    60   Output ~ 0
+bb-vfdD2
+Text GLabel 4650 5800 0    60   Output ~ 0
+bb-vfdD3
+Text GLabel 5350 5700 2    60   Output ~ 0
+bb-vfdD4
+Text GLabel 4650 5700 0    60   Output ~ 0
+bb-vfdD5
+Text GLabel 5350 5600 2    60   Output ~ 0
+bb-vfdD6
+Text GLabel 4650 5600 0    60   Output ~ 0
+bb-vfdD7
+Wire Wire Line
+	5250 5900 5350 5900
+Wire Wire Line
+	5350 5800 5250 5800
+Wire Wire Line
+	5250 5700 5350 5700
+Wire Wire Line
+	5250 5600 5350 5600
+Wire Wire Line
+	4750 5600 4650 5600
+Wire Wire Line
+	4650 5700 4750 5700
+Wire Wire Line
+	4750 5800 4650 5800
+Wire Wire Line
+	4650 5900 4750 5900
+Text GLabel 5300 5500 2    60   Output ~ 0
+bb-vfd-WR+RS
+Text GLabel 4700 5500 0    60   Output ~ 0
+bb-vfd-RD+RW
+Text GLabel 5300 5400 2    60   Output ~ 0
+bb-vfdCS1
+Text GLabel 4700 5400 0    60   Output ~ 0
+bb-vfdCS2
+Wire Wire Line
+	4750 5500 4700 5500
+Wire Wire Line
+	5250 5500 5300 5500
+Wire Wire Line
+	4750 5400 4700 5400
+Wire Wire Line
+	5250 5400 5300 5400
+Text GLabel 5300 5300 2    60   Output ~ 0
+bb-vfdE
+Wire Wire Line
+	5300 5300 5250 5300
+Text GLabel 4650 5200 0    60   Input ~ 0
+bb-vfdpBusy
+Wire Wire Line
+	5250 5200 5300 5200
+Wire Wire Line
+	4650 5200 4750 5200
 $EndSCHEMATC
