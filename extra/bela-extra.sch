@@ -455,7 +455,72 @@ Wire Wire Line
 $Sheet
 S 2300 650  1400 1350
 U 5857881D
-F0 "VFD" 60
+F0 "digital+VFD" 60
 F1 "vfd.sch" 60
 $EndSheet
+$Comp
+L CONN_01X03 P?
+U 1 1 586AB2AB
+P 6950 2400
+F 0 "P?" H 6950 2600 50  0000 C CNN
+F 1 "5-gnd-3.3v" V 7050 2400 50  0000 C CNN
+F 2 "" H 6950 2400 50  0000 C CNN
+F 3 "" H 6950 2400 50  0000 C CNN
+	1    6950 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2400 5600 2400
+Text GLabel 6150 2100 1    60   Output ~ 0
+5v
+Wire Wire Line
+	6150 2100 6150 2300
+Connection ~ 6150 2300
+Text GLabel 6150 2800 3    60   Output ~ 0
+3.3v
+Wire Wire Line
+	6150 2500 6150 2800
+Connection ~ 6150 2500
+$Comp
+L R R?
+U 1 1 586AB740
+P 5850 2500
+F 0 "R?" V 5930 2500 50  0000 C CNN
+F 1 "bead" V 5850 2500 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 5780 2500 50  0001 C CNN
+F 3 "" H 5850 2500 50  0000 C CNN
+	1    5850 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 2500 5700 2500
+Wire Wire Line
+	6000 2500 6750 2500
+$Comp
+L GND #PWR?
+U 1 1 586AB90C
+P 6500 2650
+F 0 "#PWR?" H 6500 2400 50  0001 C CNN
+F 1 "GND" H 6500 2500 50  0000 C CNN
+F 2 "" H 6500 2650 50  0000 C CNN
+F 3 "" H 6500 2650 50  0000 C CNN
+	1    6500 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2400 6500 2650
+Connection ~ 6500 2400
+$Comp
+L CONN_01X02 P?
+U 1 1 586ABAEC
+P 5400 2450
+F 0 "P?" H 5400 2600 50  0000 C CNN
+F 1 "3.3vIn" V 5500 2450 50  0000 C CNN
+F 2 "" H 5400 2450 50  0000 C CNN
+F 3 "" H 5400 2450 50  0000 C CNN
+	1    5400 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 2300 6750 2300
 $EndSCHEMATC
