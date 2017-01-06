@@ -50,7 +50,7 @@ U 1 1 58578848
 P 1500 950
 F 0 "P11" H 1500 1350 50  0000 C CNN
 F 1 "gui140x16j-7002" V 1500 950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 1500 -250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm" H 1500 -250 50  0001 C CNN
 F 3 "" H 1500 -250 50  0000 C CNN
 	1    1500 950 
 	1    0    0    -1  
