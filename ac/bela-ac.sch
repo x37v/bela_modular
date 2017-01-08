@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:xnorman
 LIBS:mta-156
+LIBS:trim
 LIBS:bela-ac-cache
 EELAYER 25 0
 EELAYER END
@@ -140,10 +141,10 @@ Wire Wire Line
 	2950 1600 2850 1600
 Wire Wire Line
 	2850 1600 2850 1650
-Text GLabel 1450 2050 0    60   Input ~ 0
+Text GLabel 1200 2050 0    60   Input ~ 0
 belaacout1
 Wire Wire Line
-	1850 2050 1450 2050
+	1850 2050 1650 2050
 Text GLabel 4000 1950 2    60   Output ~ 0
 modularacout1
 Connection ~ 3450 1950
@@ -233,10 +234,10 @@ Wire Wire Line
 	2950 2950 2850 2950
 Wire Wire Line
 	2850 2950 2850 3000
-Text GLabel 1450 3400 0    60   Input ~ 0
+Text GLabel 1200 3400 0    60   Input ~ 0
 belaacout2
 Wire Wire Line
-	1850 3400 1450 3400
+	1850 3400 1650 3400
 Text GLabel 4000 3300 2    60   Output ~ 0
 modularacout2
 Connection ~ 3450 3300
@@ -330,7 +331,7 @@ Text GLabel 1450 4850 0    60   Input ~ 0
 modularacin1
 Wire Wire Line
 	1850 4850 1450 4850
-Text GLabel 4800 4750 2    60   Output ~ 0
+Text GLabel 5100 4750 2    60   Output ~ 0
 belaacin1
 Connection ~ 3450 4750
 $Comp
@@ -338,54 +339,43 @@ L R R15
 U 1 1 5857540B
 P 3700 4750
 F 0 "R15" V 3780 4750 50  0000 C CNN
-F 1 "2k" V 3700 4750 50  0000 C CNN
+F 1 "3k6" V 3700 4750 50  0000 C CNN
 F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 3630 4750 50  0001 C CNN
 F 3 "" H 3700 4750 50  0000 C CNN
 	1    3700 4750
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
-U 1 1 58575412
-P 4100 4750
-F 0 "R17" V 4180 4750 50  0000 C CNN
-F 1 "2k" V 4100 4750 50  0000 C CNN
-F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4030 4750 50  0001 C CNN
-F 3 "" H 4100 4750 50  0000 C CNN
-	1    4100 4750
-	0    1    1    0   
-$EndComp
-$Comp
 L R R19
 U 1 1 58575419
-P 4400 5000
-F 0 "R19" V 4480 5000 50  0000 C CNN
-F 1 "1k" V 4400 5000 50  0000 C CNN
-F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4330 5000 50  0001 C CNN
-F 3 "" H 4400 5000 50  0000 C CNN
-	1    4400 5000
+P 4700 5000
+F 0 "R19" V 4780 5000 50  0000 C CNN
+F 1 "1k" V 4700 5000 50  0000 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4630 5000 50  0001 C CNN
+F 3 "" H 4700 5000 50  0000 C CNN
+	1    4700 5000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3850 4750 3950 4750
+	3850 4750 4000 4750
 Wire Wire Line
-	4250 4750 4800 4750
+	4500 4750 5100 4750
 Wire Wire Line
-	4400 4750 4400 4850
-Connection ~ 4400 4750
+	4700 4750 4700 4850
+Connection ~ 4700 4750
 $Comp
 L GND #PWR04
 U 1 1 58575424
-P 4400 5300
-F 0 "#PWR04" H 4400 5050 50  0001 C CNN
-F 1 "GND" H 4400 5150 50  0000 C CNN
-F 2 "" H 4400 5300 50  0000 C CNN
-F 3 "" H 4400 5300 50  0000 C CNN
-	1    4400 5300
+P 4700 5300
+F 0 "#PWR04" H 4700 5050 50  0001 C CNN
+F 1 "GND" H 4700 5150 50  0000 C CNN
+F 2 "" H 4700 5300 50  0000 C CNN
+F 3 "" H 4700 5300 50  0000 C CNN
+	1    4700 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 5150 4400 5300
+	4700 5150 4700 5300
 $Comp
 L TL074 U1
 U 3 1 5857542B
@@ -463,7 +453,7 @@ Text GLabel 1450 6200 0    60   Input ~ 0
 modularacin2
 Wire Wire Line
 	1850 6200 1450 6200
-Text GLabel 4800 6100 2    60   Output ~ 0
+Text GLabel 5150 6100 2    60   Output ~ 0
 belaacin2
 Connection ~ 3450 6100
 $Comp
@@ -471,54 +461,43 @@ L R R16
 U 1 1 58575459
 P 3700 6100
 F 0 "R16" V 3780 6100 50  0000 C CNN
-F 1 "2k" V 3700 6100 50  0000 C CNN
+F 1 "3k6" V 3700 6100 50  0000 C CNN
 F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 3630 6100 50  0001 C CNN
 F 3 "" H 3700 6100 50  0000 C CNN
 	1    3700 6100
 	0    1    1    0   
 $EndComp
 $Comp
-L R R18
-U 1 1 58575460
-P 4100 6100
-F 0 "R18" V 4180 6100 50  0000 C CNN
-F 1 "2k" V 4100 6100 50  0000 C CNN
-F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4030 6100 50  0001 C CNN
-F 3 "" H 4100 6100 50  0000 C CNN
-	1    4100 6100
-	0    1    1    0   
-$EndComp
-$Comp
 L R R20
 U 1 1 58575467
-P 4400 6350
-F 0 "R20" V 4480 6350 50  0000 C CNN
-F 1 "1k" V 4400 6350 50  0000 C CNN
-F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4330 6350 50  0001 C CNN
-F 3 "" H 4400 6350 50  0000 C CNN
-	1    4400 6350
+P 4750 6350
+F 0 "R20" V 4830 6350 50  0000 C CNN
+F 1 "1k" V 4750 6350 50  0000 C CNN
+F 2 "xnorman:Resistor_Horizontal_RM10mm-xnorman" V 4680 6350 50  0001 C CNN
+F 3 "" H 4750 6350 50  0000 C CNN
+	1    4750 6350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3850 6100 3950 6100
+	3850 6100 4000 6100
 Wire Wire Line
-	4250 6100 4800 6100
+	4500 6100 5150 6100
 Wire Wire Line
-	4400 6100 4400 6200
-Connection ~ 4400 6100
+	4750 6100 4750 6200
+Connection ~ 4750 6100
 $Comp
 L GND #PWR06
 U 1 1 58575472
-P 4400 6650
-F 0 "#PWR06" H 4400 6400 50  0001 C CNN
-F 1 "GND" H 4400 6500 50  0000 C CNN
-F 2 "" H 4400 6650 50  0000 C CNN
-F 3 "" H 4400 6650 50  0000 C CNN
-	1    4400 6650
+P 4750 6650
+F 0 "#PWR06" H 4750 6400 50  0001 C CNN
+F 1 "GND" H 4750 6500 50  0000 C CNN
+F 2 "" H 4750 6650 50  0000 C CNN
+F 3 "" H 4750 6650 50  0000 C CNN
+	1    4750 6650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 6500 4400 6650
+	4750 6500 4750 6650
 Text Notes 1900 900  0    60   ~ 0
 bela out is +/-1V and input expects +/- 1V\nmodular is +/- 5V
 Text GLabel 1550 1150 2    60   Output ~ 0
@@ -637,59 +616,59 @@ Connection ~ 6900 3250
 $Comp
 L C C4
 U 1 1 5871BD68
-P 6250 4500
-F 0 "C4" H 6275 4600 50  0000 L CNN
-F 1 "10n" H 6275 4400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 6288 4350 50  0001 C CNN
-F 3 "" H 6250 4500 50  0000 C CNN
-	1    6250 4500
+P 8350 4550
+F 0 "C4" H 8375 4650 50  0000 L CNN
+F 1 "10n" H 8375 4450 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 8388 4400 50  0001 C CNN
+F 3 "" H 8350 4550 50  0000 C CNN
+	1    8350 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C5
 U 1 1 5871BD6F
-P 6250 4900
-F 0 "C5" H 6275 5000 50  0000 L CNN
-F 1 "10n" H 6275 4800 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 6288 4750 50  0001 C CNN
-F 3 "" H 6250 4900 50  0000 C CNN
-	1    6250 4900
+P 8350 4950
+F 0 "C5" H 8375 5050 50  0000 L CNN
+F 1 "10n" H 8375 4850 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 8388 4800 50  0001 C CNN
+F 3 "" H 8350 4950 50  0000 C CNN
+	1    8350 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 6000 4000 0    60   Input ~ 0
+Text GLabel 8100 4050 0    60   Input ~ 0
 +15v
-Text GLabel 5950 5350 0    60   Input ~ 0
+Text GLabel 8050 5400 0    60   Input ~ 0
 -15v
 $Comp
 L GND #PWR010
 U 1 1 5871BD94
-P 5800 4800
-F 0 "#PWR010" H 5800 4550 50  0001 C CNN
-F 1 "GND" H 5800 4650 50  0000 C CNN
-F 2 "" H 5800 4800 50  0000 C CNN
-F 3 "" H 5800 4800 50  0000 C CNN
-	1    5800 4800
+P 7900 4850
+F 0 "#PWR010" H 7900 4600 50  0001 C CNN
+F 1 "GND" H 7900 4700 50  0000 C CNN
+F 2 "" H 7900 4850 50  0000 C CNN
+F 3 "" H 7900 4850 50  0000 C CNN
+	1    7900 4850
 	1    0    0    -1  
 $EndComp
-Text Notes 6250 3850 0    60   ~ 0
+Text Notes 8350 3900 0    60   ~ 0
 decoupling caps
 Wire Wire Line
-	6250 4650 6250 4750
-Connection ~ 6250 4700
+	8350 4700 8350 4800
+Connection ~ 8350 4750
 Wire Wire Line
-	6250 4000 6250 4350
+	8350 4050 8350 4400
 Wire Wire Line
-	6250 5050 6250 5350
+	8350 5100 8350 5400
 Wire Wire Line
-	5800 4800 5800 4700
-Connection ~ 6250 5350
-Connection ~ 6250 4000
+	7900 4850 7900 4750
+Connection ~ 8350 5400
+Connection ~ 8350 4050
 Wire Wire Line
-	6250 4000 6000 4000
+	8350 4050 8100 4050
 Wire Wire Line
-	5800 4700 6250 4700
+	7900 4750 8350 4750
 Wire Wire Line
-	6250 5350 5950 5350
+	8350 5400 8050 5400
 $Comp
 L R R2
 U 1 1 58726B6B
@@ -866,4 +845,70 @@ F 3 "" H 10300 3650 50  0000 C CNN
 	1    10300 3650
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C1
+U 1 1 58727AF1
+P 1500 2050
+F 0 "C1" H 1525 2150 50  0000 L CNN
+F 1 "1u" H 1525 1950 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 1538 1900 50  0001 C CNN
+F 3 "" H 1500 2050 50  0000 C CNN
+	1    1500 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C6
+U 1 1 58727B9F
+P 1500 3400
+F 0 "C6" H 1525 3500 50  0000 L CNN
+F 1 "1u" H 1525 3300 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 1538 3250 50  0001 C CNN
+F 3 "" H 1500 3400 50  0000 C CNN
+	1    1500 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L TRIM TR2
+U 1 1 58728084
+P 4250 6100
+F 0 "TR2" V 4150 6184 50  0000 C TNN
+F 1 "1k" V 4250 6100 50  0000 C CNN
+F 2 "trim:trimmer" H 4250 6100 50  0001 C CNN
+F 3 "" H 4250 6100 50  0000 C CNN
+	1    4250 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L TRIM TR1
+U 1 1 587283B7
+P 4250 4750
+F 0 "TR1" V 4150 4834 50  0000 C TNN
+F 1 "1k" V 4250 4750 50  0000 C CNN
+F 2 "trim:trimmer" H 4250 4750 50  0001 C CNN
+F 3 "" H 4250 4750 50  0000 C CNN
+	1    4250 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 5950 4250 5900
+Wire Wire Line
+	4250 5900 4550 5900
+Wire Wire Line
+	4550 5900 4550 6100
+Connection ~ 4550 6100
+Wire Wire Line
+	4250 4600 4250 4550
+Wire Wire Line
+	4250 4550 4550 4550
+Wire Wire Line
+	4550 4550 4550 4750
+Connection ~ 4550 4750
+Text Notes 4100 4450 0    60   ~ 0
+trim input max
+Wire Wire Line
+	1350 3400 1200 3400
+Wire Wire Line
+	1350 2050 1200 2050
+Text Notes 1200 2300 0    60   ~ 0
+dc block, needed?
 $EndSCHEMATC

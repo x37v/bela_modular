@@ -1,4 +1,4 @@
-update=Sun 08 Jan 2017 08:05:49 AM PST
+update=Sun 08 Jan 2017 08:42:51 AM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=xnorman
 LibName31=mta-156
+LibName32=trim
