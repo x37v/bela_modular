@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:xnorman
+LIBS:mta-156
 LIBS:bela-ac-cache
 EELAYER 25 0
 EELAYER END
@@ -770,17 +771,6 @@ F 3 "" H 9350 2200 50  0000 C CNN
 	1    9350 2200
 	-1   0    0    1   
 $EndComp
-$Comp
-L CONN_01X02 P6
-U 1 1 58726BA3
-P 10300 3550
-F 0 "P6" H 10300 3700 50  0000 C CNN
-F 1 "15v_out" V 10400 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 10300 3550 50  0001 C CNN
-F 3 "" H 10300 3550 50  0000 C CNN
-	1    10300 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 1700 9050 1700
 Wire Wire Line
@@ -865,4 +855,15 @@ Wire Wire Line
 	10100 3600 10000 3600
 Wire Wire Line
 	10000 3600 10000 3650
+$Comp
+L MTA-156-2 P6
+U 1 1 58727577
+P 10300 3650
+F 0 "P6" H 10300 3900 50  0000 C CNN
+F 1 "15v_out" V 10390 3760 50  0000 C CNN
+F 2 "mta-156:MTA-156-2" H 10300 3650 50  0001 C CNN
+F 3 "" H 10300 3650 50  0000 C CNN
+	1    10300 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Wed 04 Jan 2017 06:09:20 PM PST
+update=Sun 08 Jan 2017 07:53:17 AM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=xnorman
+LibName31=mta-156
