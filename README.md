@@ -8,6 +8,8 @@ A modular level interface for the bela beagle bone black cape, kicad projects.
 * [hardware info](https://github.com/BelaPlatform/Bela/wiki/Hardware-explained)
 
 
+## Pin mappings
+
 The digital i/o is mapped as such:
 
 |Bela #|	 Board            | Note 	             |
