@@ -17,7 +17,7 @@ The digital i/o is mapped as such:
 |00    |  in 1              ||
 |01    |  in 2              ||
 |02    |  in 3              ||
-|03    |  in 5              ||
+|03    |  in 4              ||
 |04    |  digtial in enable | pull low to enable |
 |05    |  vfd ctrl enable   | pull low to enable |
 |06    |  encin2-btn        ||
