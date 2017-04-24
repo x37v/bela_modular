@@ -34,22 +34,22 @@ The digital i/o is mapped as such:
 
 ### VFD IO
 
-| P8 |  |
-|:--:|--|
-| 12 | ctrl enable   |
-| 14 | digital out enable   |
-| 31 | P busy in   |
-| 34 | D out enable   |
-| 35 | CS2   |
-| 36 | CS1   |
-| 37 | /RD and RW   |
-| 38 | /WR and RS   |
-|    | |
-| 39 | D7   |
-| 40 | D6   |
-| 41 | D5   |
-| 42 | D4   |
-| 43 | D3   |
-| 44 | D2   |
-| 45 | D1   |
-| 46 | D0   |
+| P8 |                      | gpio |
+|:--:|----------------------|------|
+| 12 | ctrl enable          | 1_12 |
+| 14 | digital out enable   | 0_26 |
+| 31 | P busy in            | 0_10 |
+| 34 | D out enable         | 2_17 |
+| 35 | CS2                  | 0_8  |
+| 36 | CS1                  | 2_16 |
+| 37 | /RD and RW           | 2_14 |
+| 38 | /WR and RS           | 2_15 |
+|    |                      |      |
+| 39 | D7                   | 2_12 |
+| 40 | D6                   | 2_13 |
+| 41 | D5                   | 2_10 |
+| 42 | D4                   | 2_11 |
+| 43 | D3                   | 2_8  |
+| 44 | D2                   | 2_9  |
+| 45 | D1                   | 2_6  |
+| 46 | D0                   | 2_7  |
