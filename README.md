@@ -35,7 +35,7 @@ The digital i/o is mapped as such:
 ### VFD IO
 
 | P8 |  |
-|#--#|--|
+|:--:|--|
 | 12 | ctrl enable   |
 | 14 | digital out enable   |
 | 31 | P busy in   |
