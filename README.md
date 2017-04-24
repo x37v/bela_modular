@@ -39,7 +39,7 @@ The digital i/o is mapped as such:
 | 12 | ctrl enable          | 1_12 | mapped in bela software |
 | 14 | digital out enable   | 0_26 |      |
 | 31 | P busy in            | 0_10 |      |
-| 34 | D out enable         | 2_17 |      |
+| 34 | vDE                  | 2_17 |      |
 | 35 | CS2                  | 0_8  |      |
 | 36 | CS1                  | 2_16 |      |
 | 37 | /RD and RW           | 2_14 |      |
