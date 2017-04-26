@@ -53,3 +53,10 @@ The digital i/o is mapped as such:
 | 44 | D2                   | 2_9  |      |
 | 45 | D1                   | 2_6  |      |
 | 46 | D0                   | 2_7  |      |
+
+
+### Errors/rework
+
+The digital 'extra' board from 3/17 requires a rework for the digital out and
+control enable pins [P8 12 and 14]. These should be detached from 5V and
+attached to 3.3V.
